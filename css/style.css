@@ -1,0 +1,77 @@
+html{
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.top-navigation{
+	background-color: white;
+	border-bottom: 1px solid:#83C5EB;
+}
+.top-navigation .links {
+	float:right;
+	color: #59859E;
+	}
+.top-navigation .links li{
+	display:inline-block;
+	margin-right:1rem;
+	margin-top:1.5rem;
+	color: #59859E;
+}
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 600;
+}
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #000000;
+}
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+	margin-top: 1.5rem; 
+	display:inline-block;
+	margin-left: 1rem;
+}
+body{
+	background-color: white;
+	max-width: 1080px;
+	margin: 0 auto;
+	float: none;
+}
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.3rem;
+	color:#59859E; 
+	margin-left: 1rem;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+	color:#354F5E;
+	margin: 15px;
+}
+.dad-nana{
+	height: 25rem;
+	margin-top: 3rem;
+}
+footer{
+	background-color: #354F5E;
+}
+.portfolio-images{
+	margin-left: 1rem;
+	height: 30rem;
+}
+.lakota-images{
+	margin-left: 1rem;
+	height:25rem;
+}
+.gl-images{
+	margin-left: 1rem;
+	height: 22rem;
+}
+.current-images{
+	margin-left: 1rem;
+	height: 23rem;
+}
